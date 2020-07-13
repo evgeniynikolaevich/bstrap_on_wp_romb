@@ -37,18 +37,18 @@ function watch(done){
     './assets/src/img/*',
     './*.php'
   ];
-  browserSync.init(files,{
- injectChanges: false,
+  // browserSync.init(files,{
+//  injectChanges: false,
 
-  proxy:'http://localhost/wordpress/',
+//   proxy:'http://localhost/wordpress/',
 
-});
+// });
 
   gulp.watch('./assets/src/css/**/*.less',gulp.series(styles,reload));
   gulp.watch('./assets/src/js/**/*.js',gulp.series(script,reload));
   gulp.watch('./assets/src/img/*',img);
-  gulp.watch('./*', reload);
-  browserSync.watch('./*').on('change', browserSync.reload);
+  // gulp.watch('./*', reload);
+  // browserSync.watch('./*').on('change', browserSync.reload);
   }
 
 function img(){

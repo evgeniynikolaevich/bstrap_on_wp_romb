@@ -8,3 +8,14 @@ function theme_name_scripts() {
       wp_enqueue_script( 'fflanding-js', get_template_directory_uri() . '/assets/build/js/script.js');
       wp_enqueue_style('second-child-theme', get_stylesheet_directory_uri() .'/assets/build/css/styles.css');
 };
+	add_theme_support('menus');
+if(function_exists('register_nav_menus')){
+	register_nav_menus(
+		array( // создаём любое количество областей
+		  'main_menu' => 'Главное меню', // 'имя' => 'описание'
+		  'foot_menu' => 'Меню в футере',
+		  'header_menu' => "меню в хедере"
+		)
+	);
+}
+?>

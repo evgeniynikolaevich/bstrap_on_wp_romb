@@ -14,30 +14,30 @@
 <?php 
  wp_head();
 wp_enqueue_scripts();
-?>;
+?>
   </head>
 <body>
-<header>
 <!-- Классы navbar и navbar-default (базовые классы меню) -->
   <!-- Контейнер (определяет ширину Navbar) -->
-  <div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="my-row">
-        here
-            </div>
-          </div>
-    </div>
-        <div class="row">
-          <div class="col-7">
-            <div class="my-row">
-              not something
-            </div>
-          </div>
-        <div class="col-5">
-          <div class="my-row2">
-            something
-          
-          </div>
-        </div>
-  </div>
+    <header>
+      <div class="main-logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/main-logo.png" />
+      </div>
+      <div class="header-menu">
+      		<ul class="main-table"><?php wp_nav_menu( [
+									'theme_location'  => '',
+									'menu'            => 'header_menu',
+									'container'       => 'ul',
+									'container_class' => 'header-container-menu',
+									'container_id'    => '',
+									'echo'            => true,
+									'before'          => '',
+									'after'           => '',
+									'link_before'     => '',
+									'link_after'      => '',
+									'depth'           => 0,
+									'walker'          => '',
+								] );; ?>
+							</ul>
+      </div>
+    </header>
