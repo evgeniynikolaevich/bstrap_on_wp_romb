@@ -45,18 +45,33 @@ function watch(done){
 // });
 
   gulp.watch('./assets/src/css/**/*.less',gulp.series(styles,reload));
-  gulp.watch('./assets/src/js/**/*.js',gulp.series(script,reload));
-  gulp.watch('./assets/src/img/*',img);
+//  gulp.watch('./assets/src/js/**/*.js',gulp.series(script,reload));
+//  gulp.watch('./assets/src/img/*',img);
   // gulp.watch('./*', reload);
   // browserSync.watch('./*').on('change', browserSync.reload);
-  }
 
+  }
+function move_to_wordpress(){
+  var filesToMove = [
+          './assets/**/*',
+          './assets/build/*',
+          '*.php',
+          '*.js',
+          '*.css',
+      ];
+
+    gulp.src(filesToMove, { base: './' })
+    .pipe(gulp.dest('/var/www/html/wordpress/wp-content/themes/btrap_on_wp_romb/'));
+
+
+}
 function img(){
   return gulp.src('./assets/src/img/*')
-        .pipe(imagemin())
+        // .pipe(imagemin())
         .pipe(gulp.dest('./assets/build/img'))
 }
  function styles(done){
+     move_to_wordpress();
    return gulp.src('./assets/src/css/styles.less')
                 .pipe(gulpif(is_dev,sourcemaps.init()))
                 .pipe(less())

@@ -151,7 +151,9 @@
     all: initial;
     all: unset;
 }
-
+body{
+  width:1619px;
+}
 /* basic modern patch */
 
 #reset-this-root {
@@ -160,20 +162,35 @@
         all: unset;
     }
 }
-
-
+.inside-one{
+  background-color: red;
+}
+.inside-eleven{
+  background-color: green;
+}
 header{
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     height: 129px;
     flex-direction: row;
     width: 100%;
-    align-items: center;
+      margin-top: 54px;
+      align-content: center;
 }
 ul#menu-header_menu{
     display: flex;
     flex-direction: row;
+        list-style-type: none;
 }
-.main-logo{
-    margin-left:80px;
+img.main-logo{
+    /* margin-left:80px; */
+    margin-right: 216px;
+    /* margin-top: 39px; */
+    margin-bottom: 40px;
+}
+
+li a{
+
+  margin-bottom: 52px;
+  margin-right: 45px;
 }

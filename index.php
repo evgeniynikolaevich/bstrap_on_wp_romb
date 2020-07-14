@@ -2,9 +2,9 @@
 
 
 <main role="main" class="container">
+        
 
-    
-</main><!-- /.container -->
+</main>
 
 
 <?php get_footer()?>
