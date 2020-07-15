@@ -5,57 +5,89 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title>Starter Template · Bootstrap</title>
-
+    <title>Home</title>
+    <?php
+     wp_head();
+    wp_enqueue_scripts();
+    ?>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
-</html>
-<?php
- wp_head();
-wp_enqueue_scripts();
-?>
-  </head>
-<body>
-
-<div class="container-fluid">
+    </head>
+      </html>
+      <body>
+        <div class="container">
           <div class="row">
-              <div class="col-lg-1  ">
-                <!-- <div class="inside-one">
-                  inside one
-                </div> -->
-                <div class="main-logo">
-                    <img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/main-logo.png" />
+              <div class="col-md-12 block">
+                <h1>header</h1>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4   block">
+              sidebar
+              <ul class="list-unstyled list-inline">
+                <li><a href="#">Item1</a></li>
+                <li><a href="#">Item2</a></li>
+                <li><a href="#">Item3</a></li>
+                <li><a href="#">Item4</a></li>
+                <li><a href="#">Item5</a></li>
+              </ul>
+            </div>
+            <div class="col-md-8   block block">
+              <div class="row">
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
                 </div>
               </div>
-               <div class="col-md-9">
-                    <ul class="main-table"><?php wp_nav_menu( [
-                            'theme_location'  => '',
-                            'menu'            => 'header_menu',
-                            'container'       => 'ul',
-                            'container_class' => 'header-container-menu',
-                            'container_id'    => '',
-                            'echo'            => true,
-                            'before'          => '',
-                            'after'           => '',
-                            'link_before'     => '',
-                            'link_after'      => '',
-                            'depth'           => 0,
-                            'walker'          => '',
-                          ] );; ?>
-                    </ul>
+              <div class="row">
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-4 ">
+                  <div class="panel">
+                    <h1>GOOD3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
+                    <img src="https://placehold.it/800x400" alt="">
+                  </div>
+                </div>
               </div>
+            </div>
+
 
           </div>
-          <!--  <div class="col-md-2 offset-2">
-              <div class="phone-view">
-                some-phone
-              </div>
+          <div class="row">
+            <div class="col-md-12 block">
+              <h3>footer</h3>
             </div>
-            <div class="col-md-2">
-              <div class="back-call-but">
-                <a href="">some_button</a>
-              </div>
-            </div>
-        </div> -->
-  </div>
+          </div>
+        </div>
+      </body>
