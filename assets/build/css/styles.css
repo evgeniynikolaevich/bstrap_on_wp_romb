@@ -152,10 +152,14 @@
     all: unset;
 }
 body{
-  width:1619px;
+  /* width:1619px; */
 }
 /* basic modern patch */
-
+img{
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 #reset-this-root {
     all: initial;
     * {
@@ -188,7 +192,10 @@ img.main-logo{
     /* margin-top: 39px; */
     margin-bottom: 40px;
 }
-
+.block{
+  background: blue;
+  border: 1px solid red;
+}
 li a{
 
   margin-bottom: 52px;
