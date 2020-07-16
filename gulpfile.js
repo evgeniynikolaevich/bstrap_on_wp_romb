@@ -46,7 +46,7 @@ function watch(done){
 
   gulp.watch('./assets/src/css/**/*.less',gulp.series(styles,reload));
 //  gulp.watch('./assets/src/js/**/*.js',gulp.series(script,reload));
-//  gulp.watch('./assets/src/img/*',img);
+ gulp.watch('./assets/src/img/*',img);
   // gulp.watch('./*', reload);
   // browserSync.watch('./*').on('change', browserSync.reload);
 
@@ -71,7 +71,6 @@ function img(){
         .pipe(gulp.dest('./assets/build/img'))
 }
  function styles(done){
-     move_to_wordpress();
    return gulp.src('./assets/src/css/styles.less')
                 .pipe(gulpif(is_dev,sourcemaps.init()))
                 .pipe(less())
