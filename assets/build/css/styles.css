@@ -151,9 +151,7 @@
     all: initial;
     all: unset;
 }
-body{
-  /* width:1619px; */
-}
+
 /* basic modern patch */
 img{
   display: block;
@@ -166,38 +164,16 @@ img{
         all: unset;
     }
 }
-.inside-one{
-  background-color: red;
+.header-container{
+  height: 129px;
 }
-.inside-eleven{
-  background-color: green;
+#menu-header_menu{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  flex-wrap: wrap;
 }
-header{
-    display: flex;
-    /* background-color: red; */
-    height: 129px;
-    flex-direction: row;
-    width: 100%;
-      margin-top: 54px;
-      align-content: center;
-}
-ul#menu-header_menu{
-    display: flex;
-    flex-direction: row;
-        list-style-type: none;
-}
-img.main-logo{
-    /* margin-left:80px; */
-    margin-right: 216px;
-    /* margin-top: 39px; */
-    margin-bottom: 40px;
-}
-.block{
-  background: blue;
-  border: 1px solid red;
-}
-li a{
-
-  margin-bottom: 52px;
-  margin-right: 45px;
+.menu-item{
+  padding-right: 22px;
+  text-decoration: none;
 }

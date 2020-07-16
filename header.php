@@ -16,78 +16,38 @@
     </head>
       </html>
       <body>
-        <div class="container">
-          <div class="row">
-              <div class="col-md-12 block">
-                <h1>header</h1>
-              </div>
+      <div class="container-fluid">
+        <div class="row header-container">
+          <div class="col-md-1 mr-4 block">
+              <img class="main-logo" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/main-logo.png" />
           </div>
-          <div class="row">
-            <div class="col-md-4   block">
-              sidebar
-              <ul class="list-unstyled list-inline">
-                <li><a href="#">Item1</a></li>
-                <li><a href="#">Item2</a></li>
-                <li><a href="#">Item3</a></li>
-                <li><a href="#">Item4</a></li>
-                <li><a href="#">Item5</a></li>
-              </ul>
-            </div>
-            <div class="col-md-8   block block">
-              <div class="row">
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD1</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD3</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD1</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-                <div class="col-sm-4 ">
-                  <div class="panel">
-                    <h1>GOOD3</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laborum!</p>
-                    <img src="https://placehold.it/800x400" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
+          <div class="col-md-4 block">
+            <?php wp_nav_menu( [
+                       'theme_location'  => '',
+                       'menu'            => 'header_menu',
+                       'container'       => 'ul',
+                       'container_class' => 'header-container-menu',
+                       'container_id'    => '',
+                       'echo'            => true,
+                       'before'          => '',
+                       'after'           => '',
+                       'link_before'     => '',
+                       'link_after'      => '',
+                       'depth'           => 0,
+                       'walker'          => '',
+                     ] );; ?>
           </div>
-          <div class="row">
-            <div class="col-md-12 block">
-              <h3>footer</h3>
+          <div class="col-md-2">
+            <div class="some-phone">
+              <p>+7 980 336 26 06 </p>
             </div>
+          </div>
+          <div class="col-md-2">
+            <div class="callback-but">
+              
+            </div>
+          </div>
           </div>
         </div>
+
       </body>
