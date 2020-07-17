@@ -54,7 +54,7 @@ cols.css({
                                    'walker'          => '',
                                  ] );; ?>
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-2 offset-md-1">
                         <div class="some-phone">
                           <p>+7 980 336 26 06 </p>
                         </div>
