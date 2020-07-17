@@ -1,3 +1,36 @@
+
+
+
+// ##########containers####################
+.grid-width(){
+  width: @grid_width;
+}
+.grid-width-container{
+    width: @grid_width;
+}
+.our_specialization-content-container{
+
+height:730px;
+.grid-width();
+}
+.category-content-container{
+.grid-width();
+}
+.our-advantage-content-container{
+height: 830px;
+.grid-width();
+}
+.services-content-container{
+  height: 1036px;
+  .grid-width();
+}
+// #####################################
+
+
+
+
+
+
 .content-conteiner{
   margin-top: 47px;
 }
@@ -22,7 +55,6 @@ bottom: 93px;
 bottom: 60px;
 
   .khow-price-button__button{
-
     .sensive_font(@white);
     text-decoration: none;
     padding:40px;
@@ -33,19 +65,11 @@ bottom: 60px;
       display: flex;
 justify-content: center;
 }
-.n_content-container{
 
-  height:730px;
-  width: @grid_width;
-
-
-}
 .owner-place{
   margin-top: 40px;
 }
-.title-place{
-  margin-top: 120px;
-}
+
 .food-and-drinks{
   .most-wanted-font(@red);
 }
@@ -56,13 +80,43 @@ justify-content: center;
   margin-top: 40px;
   .small-font(@black);
 }
-.category-container{
-  width: @grid_width;
+
+.main-category{
+  margin-top: 180px;
 }
 .title-category{
-  margin-top: 120px;
   .most-wanted-font(@black);
 }
 .under-title p{
-  .basic_font(@black);
+  position: relative;
+  bottom: 340px;
+  .small-font(@black);
+}
+.list-with-categories{
+list-style: none;
+  position: absolute;
+bottom: 120px;
+.impotant-font(@black);
+li{
+  padding-top: 30px;
+}
+}
+
+// ##########our-advantage################
+
+.out-advantage__title p {
+  text-align: center;
+.most-wanted-font(@black);
+}
+.advantage___number__title{
+      padding-top: 20px;
+.impotant-font(@black);
+}
+.advatage__number__text{
+  .small-font(@black);
+}
+//###########services#####################
+p.services__title {
+  text-align: center;
+.most-wanted-font(@black);
 }
