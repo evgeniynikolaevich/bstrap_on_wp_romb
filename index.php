@@ -127,7 +127,7 @@
             </div>
           </div>
       </div>
-      <div class="container services-content-container">
+      <div class="container">
             <div class="row grid-width-container">
                   <div class="col-md-8 offset-md-2">
                         <p class="services__title down-title">
@@ -135,61 +135,97 @@
                         </p>
                   </div>
             </div>
-            <div class="row grid-width-container">
+            <div class="row grid_width-container">
 
-                          <div class="col-md-4 one-card">
-                                  <div class="row">
-                                      <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-md-12">
-                                    Стратегия продвижения
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-md-12">
-                                      Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен
-                                    </div>
-                                  </div>
-                          </div>
-                          </div>
-
-                          <div class="col-md-4">
-                              <div class="row">
-                                <div class="col-md-12">
-                                  <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                  Генерация контента
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                  Генерация и ведение уникального контента, фотосессии
-                                </div>
-                              </div>
-                          </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="row">
-                                <div class="col-md-12">
-                                  <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                    Реклама
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                  Настройка и запуск таргетированной рекламы
-                                </div>
-                              </div>
-                              </div>
+              <div class="col-md-4 ">
+                <div class="one-card">
+                      <div class="row">
+                        <div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
                       </div>
+                      <div class="row">
+                        <div class="col-md-12">Стратегия продвижения</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен</div>
+                      </div>
+                    </div>
+                </div>
+
+              <div class="col-md-4">
+                <div class="one-card">
+                      <div class="row">
+                        <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Генерация контента</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Генерация и ведение уникального контента, фотосессии</div>
+                      </div>
+                  </div>
+                </div>
+
+              <div class="col-md-4">
+                <div class="one-card">
+                  <div class="row">
+                    <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">Реклама</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">  Настройка и запуск таргетированной рекламы</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        <div class="row grid_width-container">
+
+              <div class="col-md-4 ">
+                <div class="one-card">
+                      <div class="row">
+                        <div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">Стратегия продвижения</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен</div>
+                      </div>
+                    </div>
+                </div>
+
+              <div class="col-md-4">
+                <div class="one-card">
+                      <div class="row">
+                        <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Генерация контента</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> Генерация и ведение уникального контента, фотосессии</div>
+                      </div>
+                  </div>
+                </div>
+
+              <div class="col-md-4">
+                <div class="one-card">
+                  <div class="row">
+                    <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">Реклама</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">  Настройка и запуск таргетированной рекламы</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
 
 
 
