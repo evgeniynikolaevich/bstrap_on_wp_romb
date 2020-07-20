@@ -234,16 +234,57 @@
                   </div>
             </div>
       </div>
-      <div class="container-fluid gray-container cases-content-container">
-          <div class="row ">
-            <div class="col-md-6 offset-md-2">
-                  <p class="services__title down-title">
-                    Кейсы
-                  </p>
+      <div class="container-fluid gray-container cases_width">
+          <div class="row cases-content-container">
+            <div class="col-md-8 offset-md-2">
+                    <p class="cases__title down-title">
+                      Кейсы
+                    </p>
+              </div>
             </div>
+              <div class="row cases-content-container">
+                  <div class="col-md-6">
+                    <div class="one-case">
+                          <div class="one-case__top-side">
+                              <div class="row">
+                                  <div class="col-md-8 offset-md-2">
+                                      <p class="one-case__text__title">
+                                        Продвижение продукции “Славянка”
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <table class ="one-case__text__description">
+
+                                          <tr>
+                                              <th>  Подписчиков за год</th>
+                                              <td>1378</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Средний охват у постов в инстаграм </th>
+                                              <td>более 2000</td>
+                                          </tr>
+                                        </table>
+                                    </div>
+                              </div>
+                          </div>
+
+                          <div class="one-case__bottom-side">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/slavianka.png">
+                          </div>
+                      </div>
+
+                    </div>
+              <div class="col-md-6">
+                <div class="one-case">
+
+2
+                    </div>
+              </div>
           </div>
-          <div class="row">
       </div>
+
 
 
 
