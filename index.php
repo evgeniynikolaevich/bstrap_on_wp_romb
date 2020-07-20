@@ -26,7 +26,7 @@
           <div class="row  our_specialization-content-container">
                   <div class="col-md-6">
                         <div class="owner-place">
-                              <img class="main-granade" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/owner.png" />
+                              <img class  src="<?php echo get_template_directory_uri(); ?>/assets/build/img/owner.png" />
                         </div>
                   </div>
                     <div class="col-md-6">
@@ -135,18 +135,22 @@
                         </p>
                   </div>
             </div>
-            <div class="row grid_width-container">
+            <div class="row grid_width-container service-container__one-row">
 
               <div class="col-md-4 ">
                 <div class="one-card">
                       <div class="row">
-                        <div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
+                        <div class="col-md-12"> <img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12">Стратегия продвижения</div>
+                        <div class="col-md-12 " ><p class="one-card__title">
+                          Стратегия продвижения
+                        </p> </div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен</div>
+                        <div class="col-md-12"> <p class="one-card__card-text">
+                            Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен
+                        </p> </div>
                       </div>
                     </div>
                 </div>
@@ -154,44 +158,46 @@
               <div class="col-md-4">
                 <div class="one-card">
                       <div class="row">
-                        <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
+                        <div class="col-md-12"><img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Генерация контента</div>
+                        <div class="col-md-12 "><p class="one-card__title"> Генерация контента</p>
+                        </div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Генерация и ведение уникального контента, фотосессии</div>
+                        <div class="col-md-12"> <p class="one-card__card-text">Генерация и ведение уникального контента, фотосессии</p></div>
                       </div>
                   </div>
                 </div>
 
               <div class="col-md-4">
                 <div class="one-card">
-                  <div class="row">
-                    <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">Реклама</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">  Настройка и запуск таргетированной рекламы</div>
+                      <div class="row">
+                        <div class="col-md-12"><img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"></div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12"> <p class="one-card__title">Реклама</p></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12"> <p class="one-card__card-text">Настройка и запуск таргетированной рекламы</p></div>
+                      </div>
                   </div>
                 </div>
-              </div>
 
             </div>
-        <div class="row grid_width-container">
+        <div class="row grid_width-container service-container__one-row">
 
               <div class="col-md-4 ">
                 <div class="one-card">
                       <div class="row">
-                        <div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
+                        <div class="col-md-12"> <img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/blogery.png"></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12">Стратегия продвижения</div>
+                        <div class="col-md-12"><p class="one-card__title">Работа с блогерами</p></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Разработка стратегии продвижения в социальных сетях: вконтакте, фейсбук, инстаграм, яндекс дзен</div>
+                        <div class="col-md-12"> <p class="one-card__card-text">Работа с лидерами мнений,<br> социальными группами и блогерами</p></div>
                       </div>
                     </div>
                 </div>
@@ -199,31 +205,84 @@
               <div class="col-md-4">
                 <div class="one-card">
                       <div class="row">
-                        <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
+                        <div class="col-md-12">
+                          <img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/dev_brand.png"></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Генерация контента</div>
+                        <div class="col-md-12"><p class="one-card__title">Разработка бренда</p></div>
                       </div>
                       <div class="row">
-                        <div class="col-md-12"> Генерация и ведение уникального контента, фотосессии</div>
+                        <div class="col-md-12"><p class="one-card__card-text">Разработка бренда под ключ</p></div>
                       </div>
                   </div>
                 </div>
 
-              <div class="col-md-4">
-                <div class="one-card">
-                  <div class="row">
-                    <div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"</div>
+                <div class="col-md-4">
+                  <div class="one-card">
+                        <div class="row">
+                            <div class="col-md-12">
+                              <img class="one-card__img"src="<?php echo get_template_directory_uri(); ?>/assets/build/img/site_develop.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12"><p class="one-card__title">Разработка сайтов</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12"><p class="one-card__card-text">Разработка и продвижение сайтов</p></div>
+                        </div>
+                    </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12">Реклама</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">  Настройка и запуск таргетированной рекламы</div>
-                  </div>
-                </div>
+            </div>
+      </div>
+      <div class="container-fluid gray-container cases_width">
+          <div class="row cases-content-container">
+            <div class="col-md-8 offset-md-2">
+                    <p class="cases__title down-title">
+                      Кейсы
+                    </p>
               </div>
             </div>
+              <div class="row cases-content-container">
+                  <div class="col-md-6">
+                    <div class="one-case">
+                          <div class="one-case__top-side">
+                              <div class="row">
+                                  <div class="col-md-8 offset-md-2">
+                                      <p class="one-case__text__title">
+                                        Продвижение продукции “Славянка”
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <table class ="one-case__text__description">
+
+                                          <tr>
+                                              <th>  Подписчиков за год</th>
+                                              <td>1378</td>
+                                          </tr>
+                                          <tr>
+                                              <th>Средний охват у постов в инстаграм </th>
+                                              <td>более 2000</td>
+                                          </tr>
+                                        </table>
+                                    </div>
+                              </div>
+                          </div>
+
+                          <div class="one-case__bottom-side">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/slavianka.png">
+                          </div>
+                      </div>
+
+                    </div>
+              <div class="col-md-6">
+                <div class="one-case">
+
+2
+                    </div>
+              </div>
+          </div>
       </div>
 
 
