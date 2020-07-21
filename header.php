@@ -7,20 +7,10 @@
 
     <meta name="generator" content="Jekyll v4.0.1">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      var cols = $("[class*=col-]"),
-    lightColor = "rgba(102,178,255,.3)",
-    darkColor = "rgba(102,178, 255, .6)";
-cols.css({
-  "background": lightColor,
-  "border": ("2px solid " + darkColor)
-}).each(function() {
-  	$(this).append("<span class=\"debug\">" + $(this).attr("class").match(/col-(\S+)/g) + "</span>");
-}).find(".debug").css({
-  "font-size":8,
-  "font-weight":"normal"
-});
-    </script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/build/js/script.js"></script>
     <title>Home</title>
     <?php
      wp_head();
@@ -28,7 +18,9 @@ cols.css({
     ?>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     </head>
       </html>

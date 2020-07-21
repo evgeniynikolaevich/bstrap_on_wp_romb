@@ -43,6 +43,12 @@ flex-wrap: wrap;
 .cases-content-container{
   .grid-width();
 }
+
+.grid{
+  width: @grid_width;
+}
+
+
 // #####################################
 
 
@@ -176,20 +182,21 @@ margin-bottom: 24px;
 .most-wanted-font(@black);
 }
 .one-case{
-  height: 550px;
+margin-bottom: 194px;
   background: #FFFFFF;
 box-shadow: 0px 0px 88px rgba(154, 150, 132, 0.5);
 border-radius: 10px;
   .one-case__top-side{
-    .one-case__text{
+    .one-case__text__title{
+      padding-top: 40px;
       .impotant-font(@black);
     }
     .one-case__text__description{
       .small-font(@black);
+      margin-bottom: 58px;
     }
   }
     .one-case__bottom-side{
-      height: 306px;
     border-radius: 0px 0px 10px 10px;
   }
 }
