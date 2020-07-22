@@ -1,5 +1,7 @@
+@import "header.less";
 @import  "index.less";
 @import  "footer.less";
+
 .reset-this {
     animation : none;
     animation-delay : 0;
@@ -154,15 +156,19 @@
     all: initial;
     all: unset;
 }
+#reset-this-root {
+    all: initial;
+    * {
+        all: unset;
+    }
+}
 @red: #FF3939;
 @black:#242424;
 @white:#FFFFFF;
 @gray:#E6E4DF;
 
 @grid_width: 1110px;
-body{
-  // width: 1440px;
-}
+
 
 .advantage-font{
   font-family: Bw Modelica LGC;
@@ -213,75 +219,4 @@ img{
   height: auto;
   max-width: 100%;
 }
-.down-title{
-  margin-top: 120px;
-  margin-bottom: 100px;
-}
-#reset-this-root {
-    all: initial;
-    * {
-        all: unset;
-    }
-}
-.header-plus-first-block{
-height: 800px;
-}
-.header-container{
-  height: 129px;
-  box-shadow: 0px 10px 39px rgba(0, 0, 0, 0.09);
-}
-.main-logo{
-  margin-left: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-#menu-header_menu{
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 49px;
-  padding-bottom: 57px;
-  text-decoration: none;
-}
-.menu-item{
-  padding-right: 22px;
-.small-font(@black);
-:hover{
-  text-decoration: none;
-  color:@black;
-}
-}
-li a{
-  color:@black;
-}
-.some-phone p{
-  padding-top: 52px;
-  padding-bottom: 52px;
-  .sensive_font(@black);
-}
-.call-me{
-  padding-top: 38px;
-  padding-bottom: 38px;
-.callback{
-  display: flex;
-  padding: 15px 42px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  border: 2px solid @red;
-  box-sizing: border-box;
-  width: 230px;
-height: 53px;
-justify-content: center;
-align-items: center;
-}
-a.callback__button{
-  text-decoration: none;
-  text-align: center;
-  .sensive_font(@red);
-
-}a.callback__button:hover{
-  color :@red;
-  text-decoration: none;
-}
-}
+@import "media.less";
