@@ -27,47 +27,47 @@
         </div>
 
 </div>
-    <div class="container-fluid gray-container">
-          <div class="row  our_specialization-content-container">
-                  <div class="col-4 col-md-6  ">
+    <div class="container-fluid gray-container d-flex justify-content-center">
+          <div class=" row  our_specialization-content-container d-flex  flex-column f ">
+                  <div class=" col-md-6 col order-last">
                         <div class="owner-place">
-                              <img class  src="<?php echo get_template_directory_uri(); ?>/assets/build/img/owner.png" />
+                              <img class="owner-place__owner-img"  src="<?php echo get_template_directory_uri(); ?>/assets/build/img/owner.png" />
                         </div>
                   </div>
-                    <div class="col-3 col-md-6">
-                          <div class="title-place down-title">
-                                <p class="food-and-drinks">Еда и напитки <span class="other">-</span></p>
-                                <p class='other'>это наша специализация</p>
-                          </div>
-                          <div class="many-many-text">
-                                <p class="upper-place">
-                                  Привет! <br>
-                                  Меня зовут Баранов Петрй. <br>
-                                  Я являюсь основателем и владельцем smm-агенства Горн. <br>
-                                  <br>
-                                  Вот уже более 5 лет я занимаюсь smm-продвижением и интернет-маркетингом. За все это время мне довелось работать с разными нишами и проектами, начиная от маленького островка в торговом центре по продаже носков и заканчивая крупными предприятиями, продукция которых реализуется во всех супермаркетах России и за ее пределами
-                              </p>
-                        </div>
-                  </div>
-            </div>
-      </div>
-      <div class="container">
+                <div class=" col-md-6  col order-first">
+                      <div class="title-place down-title">
+                            <p class="food-and-drinks">Еда и напитки <span class="other">-</span></p>
+                            <p class='other'>это наша специализация</p>
+                      </div>
+                      <div class="many-many-text">
+                            <p class="upper-place">
+                              Привет! <br>
+                              Меня зовут Баранов Петр. <br>
+                              Я являюсь основателем и владельцем smm-агенства Горн. <br>
+                              <br>
+                              Вот уже более 5 лет я занимаюсь smm-продвижением и интернет-маркетингом. За все это время мне довелось работать с разными нишами и проектами, начиная от маленького островка в торговом центре по продаже носков и заканчивая крупными предприятиями, продукция которых реализуется во всех супермаркетах России и за ее пределами
+                          </p>
+                    </div>
+              </div>
+        </div>
+     </div>
+     <div class="container">
         <div class="row category-content-container">
-            <div class="col-md-6">
+            <div class="col-md-6 col">
                 <div class="title-category down-title">
                     <p>Категории</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col">
               <img class="main-category" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/category.png" />
             </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col">
                           <div class="under-title">
                               <p>На данном этапе мы сосредоточены на продвижении определенной  категории  товаров и услуг, где были достигнуты наилучшие результаты и показатели продаж, а именно:</p>
                           </div>
                   </div>
             </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5 ">
                         <ul class="list-with-categories" style="list-style-image: url('<?php echo get_template_directory_uri(); ?>/assets/build/img/vector.png')">
                               <li class="position">Продукты питания и напитки</li>
                               <li class="position">Доставка еды</li>
@@ -75,7 +75,8 @@
                         </ul>
                   </div>
         </div>
-      <div class="container-fluid gray-container">
+        <!---
+      <div class="container-fluid gray-container d-flex justify-content-center">
             <div class="row our-advantage-content-container">
                 <div class="col-md-8 offset-md-2">
                     <div class="out-advantage__title down-title">
@@ -132,6 +133,7 @@
             </div>
           </div>
       </div>
+      <!----
       <div class="container">
             <div class="row grid-width-container">
                   <div class="col-12 col-md-8 offset-md-2">
@@ -239,7 +241,7 @@
                   </div>
             </div>
       </div>
-      <div class="container-fluid gray-container cases_width">
+      <div class="container-fluid gray-container d-flex justify-content-center cases_width flex-column align-items-center">
           <div class="row cases-content-container">
             <div class="col-md-8 offset-md-2">
                     <p class="cases__title down-title">
@@ -309,5 +311,5 @@
                           </div>
                     </div>
                   </div>
-                </div>
-<?php get_footer()?>
+                </div> -->
+<!-- <?php get_footer()?> -->
