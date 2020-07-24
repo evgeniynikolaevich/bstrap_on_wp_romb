@@ -1,3 +1,3 @@
-#for gulp
-#npm i
-#gulp
+$for gulp
+$npm i
+$#gulp
