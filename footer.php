@@ -32,3 +32,8 @@
   </div>
 
 </footer>
+<<<<<<< HEAD
+=======
+
+</body>
+>>>>>>> origin
