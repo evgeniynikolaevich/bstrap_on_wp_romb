@@ -4,10 +4,20 @@
 
 //#############header#############################
 @media (max-width: 480px) {
-
+  .mobile-grid{
+    width: 288px;
+  }
+  .mobile-container-center{
+    align-items: center;
+  }
+  .mobile-one-advantage{
+    flex-direction: column;
+  }
+  .mobile-column{
+    flex-direction: column;
+  }
   .header-container{
     height: 64px;
-
   }
 .active_button{
   display: flex;
@@ -73,7 +83,7 @@ bottom: 0
   display: flex;
   justify-content: center;
   .owner-place__owner-img{
-    max-width: 80%;
+    max-width: 83%;
   }
   .title-place{
         margin-bottom: 95px;
@@ -82,22 +92,88 @@ bottom: 0
 // ################categories############################
 .category-content-container{
   flex-direction: column;
-  width: 288px;
   height: 618px;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
-
 .title-category{
   .mobile-title-font();
 }
+.main-category{
+    margin: 0 !important;
+    max-width: 100%;
+  }
 .under-title p{
-  position: inherit;
-  border-bottom: 0;
+position: initial;
+bottom: initial;
 }
-img.main-category{
-  margin-top: 0;
-}
+
 .list-with-categories{
-  position: inherit;
-  bottom: 0;
+    position: initial;
+padding-bottom: 60px;
+   li{
+  padding-top: 20px;
+}
+}
+
+// ##################our-advantage###################################
+.our-advantage-content-container{
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: inherit;
+}
+.our-advantage__title p{
+  .mobile-title-font();
+}
+//###################service#########################################
+
+
+
+p.services__title{
+    .mobile-title-font();
+}
+.one-card-mobile{
+  width: 288px;
+  height: 320px;
+margin-bottom: 20px;
+
+}
+.one-card__img{
+  margin-top: 20px;
+}
+// ###################cases################################################
+.footer-logo{
+  margin-top: 40px;
+}
+.cases-content-container{
+  width: 288px;
+}
+.footer-container{
+  height: 635px;
+}
+.footer-mobile{
+  width: 288px;
+  flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-content: center;
+text-align: center;
+}
+.callback-footer{
+  display: block;
+  margin-top: initial;
+}
+.footer-container-mobile{
+  display: flex;
+  justify-content: center;
+}
+.creditails{
+  margin-top: inherit;
+}
+p.number{
+  margin-top: initial;
+}
+.social{
+  margin-top: initial;
 }
 }

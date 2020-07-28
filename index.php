@@ -26,8 +26,9 @@
               </div>
         </div>
 
-</div>
-    <div class="container-fluid gray-container d-flex justify-content-center">
+        </div>
+
+    <div class="container-fluid gray-container d-flex justify-content-center ">
           <div class=" row  our_specialization-content-container d-flex  flex-column f ">
                   <div class=" col-md-6 col order-last">
                         <div class="owner-place">
@@ -51,23 +52,23 @@
               </div>
         </div>
      </div>
-     <div class="container">
-        <div class="row category-content-container">
-            <div class="col-md-6 col">
+     <div class="container d-flex flex-column mobile-container-center">
+        <div class="row category-content-container mobile-grid">
+            <div class="col-md-6 col-1 order-first">
                 <div class="title-category down-title">
                     <p>Категории</p>
                 </div>
             </div>
-            <div class="col-md-6 col">
+            <div class="col-md-6 co order-2">
               <img class="main-category" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/category.png" />
             </div>
-                  <div class="col-md-6 col">
+                  <div class="col-md-6 col order-3">
                           <div class="under-title">
                               <p>На данном этапе мы сосредоточены на продвижении определенной  категории  товаров и услуг, где были достигнуты наилучшие результаты и показатели продаж, а именно:</p>
                           </div>
                   </div>
             </div>
-                  <div class="col-md-5 ">
+                  <div class="col-md-6 order-last">
                         <ul class="list-with-categories" style="list-style-image: url('<?php echo get_template_directory_uri(); ?>/assets/build/img/vector.png')">
                               <li class="position">Продукты питания и напитки</li>
                               <li class="position">Доставка еды</li>
@@ -75,41 +76,41 @@
                         </ul>
                   </div>
         </div>
-        <!---
-      <div class="container-fluid gray-container d-flex justify-content-center">
-            <div class="row our-advantage-content-container">
-                <div class="col-md-8 offset-md-2">
-                    <div class="out-advantage__title down-title">
+      <div class="container-fluid gray-container d-flex justify-content-center flex-column mobile-container-center ">
+            <div class="row our-advantage-content-container mobile-grid">
+                <div class="col-md-8 offset-md-2 col-12 ">
+                    <div class="our-advantage__title down-title">
                       <p>Наши преимущества</p>
                     </div>
                 </div>
-            <div class="row grid-width-container">
-                <div class="col-md-6">
-                    <div class="row">
-                          <div class="col-md-5">
+            </div>
+            <div class="row grid-width-container mobile-grid mobile-column ">
+                <div class="col-md-6 col">
+                    <div class="row mobile-one-advantage">
+                          <div class="col-md-5 col">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/one.png" />
                           </div>
-                          <div class="col-md-7">
+                          <div class="col-md-7 col">
                               <p class="advantage___number__title">Профессионализм по региональной стоимости</p>
                               <p class="advatage__number__text">Делаем свою работу, находясь при этом в регионах и работая удаленно, что снижает стоимость услуг, не теряя качество P.S. до Москвы добираемся за 4 часа</p>
                           </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="row">
-                          <div class="col-md-5">
+                <div class="col-md-6 col">
+                    <div class="row mobile-one-advantage">
+                          <div class="col-md-5 col">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/two.png" />
                           </div>
-                          <div class="col-md-7">
+                          <div class="col-md-7 col">
                               <p class="advantage___number__title">Концентрация</p>
                               <p class="advatage__number__text">Сфокусированы на конкретной нише, что дает нам преимущество в этой области</p>
                           </div>
                   </div>
                 </div>
             </div>
-            <div class="row grid-width-container">
+            <div class="row grid-width-container mobile-grid mobile-column ">
                 <div class="col-md-6">
-                    <div class="row">
+                  <div class="row mobile-one-advantage">
                           <div class="col-md-5">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/three.png" />
                           </div>
@@ -120,7 +121,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="row">
+                  <div class="row mobile-one-advantage">
                           <div class="col-md-5">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/build/img/four.png" />
                           </div>
@@ -132,20 +133,18 @@
                 </div>
             </div>
           </div>
-      </div>
-      <!----
-      <div class="container">
-            <div class="row grid-width-container">
+<!--
+       <div class="container  d-flex flex-column mobile-container-center">
+            <div class="row mobile-grid grid-width-container">
                   <div class="col-12 col-md-8 offset-md-2">
                         <p class="services__title down-title">
                           Услуги
                         </p>
                   </div>
             </div>
-            <div class="row grid_width-container service-container__one-row">
-
+            <div class="row  mobile-grid grid_width-container service-container__one-row">
               <div class="col-md-4 ">
-                <div class="one-card">
+                <div class="one-card one-card-mobile">
                       <div class="row">
                         <div class="col-md-12"> <img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/strategy.png"></div>
                       </div>
@@ -160,10 +159,10 @@
                         </p> </div>
                       </div>
                     </div>
-                </div>
+                </div> -->
 
-              <div class="col-md-4">
-                <div class="one-card">
+              <!-- <div class="col-md-4">
+                <div class="one-card one-card-mobile">
                       <div class="row">
                         <div class="col-md-12"><img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/content.png"></div>
                       </div>
@@ -176,13 +175,11 @@
                       </div>
                   </div>
                 </div>
-
               <div class="col-md-4">
-                <div class="one-card">
+                <div class="one-card one-card-mobile">
                       <div class="row">
                         <div class="col-md-12"><img  class="one-card__img" src="<?php echo get_template_directory_uri(); ?>/assets/build/img/reklama.png"></div>
                       </div>
-
                       <div class="row">
                         <div class="col-md-12"> <p class="one-card__title">Реклама</p></div>
                       </div>
@@ -191,10 +188,8 @@
                       </div>
                   </div>
                 </div>
-
-            </div>
-        <div class="row grid_width-container service-container__one-row">
-
+            </div> -->
+        <!-- <div class="row  mobile-grid grid_width-container service-container__one-row">
               <div class="col-md-4 ">
                 <div class="one-card">
                       <div class="row">
@@ -208,7 +203,6 @@
                       </div>
                     </div>
                 </div>
-
               <div class="col-md-4">
                 <div class="one-card">
                       <div class="row">
@@ -223,7 +217,6 @@
                       </div>
                   </div>
                 </div>
-
                 <div class="col-md-4">
                   <div class="one-card">
                         <div class="row">
@@ -239,8 +232,10 @@
                         </div>
                     </div>
                   </div>
-            </div>
-      </div>
+            </div> -->
+      <!-- </div>
+      </div> -->
+
       <div class="container-fluid gray-container d-flex justify-content-center cases_width flex-column align-items-center">
           <div class="row cases-content-container">
             <div class="col-md-8 offset-md-2">
@@ -311,5 +306,5 @@
                           </div>
                     </div>
                   </div>
-                </div> -->
-<!-- <?php get_footer()?> -->
+                </div>
+<?php get_footer()?>
